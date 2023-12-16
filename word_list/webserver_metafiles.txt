@@ -1,0 +1,4 @@
+sitemap.xml
+robots.txt
+security.txt
+humans.txt
