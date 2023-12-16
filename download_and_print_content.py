@@ -1,6 +1,7 @@
 import argparse
 import requests
 
+
 def download_and_print_content(url, filename_list, disable_ssl_check=False):
     for filename in filename_list:
         try:
@@ -13,6 +14,7 @@ def download_and_print_content(url, filename_list, disable_ssl_check=False):
 
         except requests.RequestException as e:
             print(f"Error: {e}")
+
 
 def main():
     parser = argparse.ArgumentParser(description='Download and Print File Content Using Python Script')
